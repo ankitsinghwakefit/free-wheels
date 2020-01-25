@@ -98,14 +98,14 @@ header {
         margin: 4rem 6rem;
 
         input {
-            width: 32%;
+            width: 28%;
             padding: .5rem .9rem;
             font-size: 1rem;
             border-radius: 3px;
             border: 2px solid white;
         }
         button {
-            width: 26%;
+            width: 24%;
             padding: .5rem .9rem;
             background-color: #FFA308;
             font-weight: 900;
@@ -185,8 +185,12 @@ header {
 }
 
 .promotion {
-    width: 100%;
+    width: 80%;
+    margin : 0 auto;
+    .promotion_item {
+        width: 100%;
     margin-top: 4rem;
+    }
 }
 
 .motivation {
