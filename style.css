@@ -1,0 +1,444 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #49393D;
+  padding: 0 1rem;
+}
+header .header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_container .header_logo_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+header .header_container .header_logo_container .logo {
+  width: 6rem;
+  height: 4rem;
+  margin: 0.5rem 0;
+}
+header .header_container .header_logo_container .logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+header .header_container .header_logo_container nav .home {
+  color: #FFA308;
+}
+header .header_container .header_logo_container nav a {
+  font-family: "Roboto";
+  margin-right: 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+header .header_container .header_partner_container {
+  padding-right: 2rem;
+}
+header .header_container .header_partner_container .partner_div {
+  font-size: 1.3rem;
+  color: #FFA308;
+  border: 2px solid black;
+  padding: 0.3rem 0.8rem;
+}
+
+.hero_box {
+  background: url(header.jpg) right top no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  border-bottom: none;
+}
+.hero_box .hero_item1 {
+  text-align: center;
+}
+.hero_box .hero_item1 h1 {
+  font-size: 6rem;
+  margin: 0;
+  color: white;
+}
+.hero_box .hero_item1 h3 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: white;
+}
+.hero_box .hero_item1 h3 .colored_text {
+  color: #FFA308;
+}
+.hero_box .hero_item2 {
+  background: rgba(66, 51, 56, 0.6);
+  padding: 0.8rem;
+  border-radius: 5px;
+  width: 40%;
+  height: 2.3rem;
+  margin: 4rem 6rem;
+}
+.hero_box .hero_item2 input {
+  width: 32%;
+  padding: 0.5rem 0.9rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+.hero_box .hero_item2 button {
+  width: 26%;
+  padding: 0.5rem 0.9rem;
+  background-color: #FFA308;
+  font-weight: 900;
+  border: 2px solid #FFA308;
+  color: white;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: #423338;
+}
+.container .main_container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .main_container .main_item1 h2 {
+  font-size: 2.6rem;
+  margin: 0;
+  font-weight: 700;
+  color: #423338;
+  margin-bottom: 1rem;
+}
+.container .main_container .main_item1 p {
+  font-size: 1.4rem;
+  color: #423338;
+  margin: 0;
+}
+.container .main_container .main_item2 {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+.container .main_container .main_item2 .main_item2_box1 {
+  margin: 0 2rem;
+  width: 30%;
+}
+.container .main_container .main_item2 .location {
+  border: 3px dashed #D1D1D1;
+  border-radius: 10px;
+  font-size: 8rem;
+  padding: 2rem;
+}
+.container .main_container .main_item2 h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+.container .main_container .main_item2 p {
+  font-size: 1.3rem;
+}
+.container .main_container .main_item3 {
+  margin-top: 2rem;
+}
+.container .main_container .main_item3 button {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #FFA308;
+  font-weight: 500;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7rem 1.5rem;
+}
+
+.promotion {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.motivation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F8F8F8;
+  margin-top: 2rem;
+}
+.motivation .motiv_container {
+  width: 70%;
+  margin: 0 auto;
+}
+.motivation .motivation_item1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+.motivation .motivation_item1 h2 {
+  font-size: 2.6rem;
+  color: #423338;
+  margin: 0;
+}
+.motivation .motivation_item1 p {
+  font-size: 1.4rem;
+  color: #423338;
+}
+.motivation .motivation_item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.motivation .motivation_item2 .motiv_img {
+  margin: 1rem 1rem;
+}
+.motivation .motivation_item2 .img1 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.motivation .motivation_item2 .img1:hover {
+  opacity: 0.7;
+}
+.motivation .motivation_item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.motivation .motivation_item3 .motiv_img {
+  margin: 1rem 1rem;
+}
+.motivation .motivation_item3 .img1 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.motivation .motivation_item3 .img1:hover {
+  opacity: 0.7;
+}
+
+.contact_us {
+  width: 70%;
+  margin: 2rem auto;
+}
+.contact_us .contact_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_us .contact_div .form_heading {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact_us .contact_div .form_heading h2 {
+  font-size: 2.6rem;
+  color: #423338;
+  margin: 0;
+}
+.contact_us .contact_div .form {
+  background-color: #423338;
+  width: 60%;
+  padding: 0 2rem;
+  line-height: 1.8;
+  color: white;
+  font-size: 1.4rem;
+}
+.contact_us .contact_div .form .form_h {
+  color: white;
+  font-size: 1.4rem;
+  border-bottom: 2px solid black;
+  margin: 0;
+}
+.contact_us .contact_div .form .form_b {
+  margin-top: 2rem;
+}
+.contact_us .contact_div .form .pick input {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  width: 20rem;
+}
+.contact_us .contact_div .form .btn1 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+.contact_us .contact_div .form .btn1 button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.5rem;
+  background-color: #FFA308;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.radio {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+}
+
+.subscribe {
+  background-color: #D1D1D1;
+  padding: 2rem 0;
+}
+.subscribe .sub_box {
+  width: 70%;
+  margin: 2rem auto;
+}
+.subscribe .sub_box h2 {
+  margin-top: 4rem;
+  font-size: 2.6rem;
+  color: #423338;
+  margin-bottom: 0;
+}
+.subscribe .sub_box p {
+  font-size: 1.4rem;
+  color: #423338;
+}
+.subscribe .sub_box input {
+  width: 50%;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  margin-right: 1.5rem;
+}
+.subscribe .sub_box button {
+  width: 25%;
+  height: 3.5rem;
+  background-color: #FFA308;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #F8F8F8;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #423338;
+  padding: 2rem 4rem;
+  color: white;
+}
+footer .foot {
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot h4 {
+  font-size: 1.6rem;
+}
+footer .foot ul {
+  list-style-type: none;
+}
+footer .foot ul li {
+  font-size: 1.3rem;
+  list-style-position: inside;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header_logo_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .motivation_item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .motivation_item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 990px) {
+  html {
+    font-size: 12px;
+  }
+
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header_logo_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  html {
+    font-size: 12px;
+  }
+
+  .motivation_item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .motivation_item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 990px) {
+  html {
+    font-size: 12px;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
