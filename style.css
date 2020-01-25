@@ -80,7 +80,7 @@ header .header_container .header_partner_container .partner_div {
   background: rgba(66, 51, 56, 0.6);
   padding: 0.8rem;
   border-radius: 5px;
-  width: 60%;
+  width: 100%;
   height: 2.3rem;
   margin: 4rem 6rem;
 }
@@ -394,7 +394,7 @@ footer .foot ul li {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 12px;
   }
@@ -414,7 +414,7 @@ footer .foot ul li {
     width: 30%;
   }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 12px;
   }
@@ -433,7 +433,7 @@ footer .foot ul li {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 12px;
   }
