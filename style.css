@@ -80,12 +80,12 @@ header .header_container .header_partner_container .partner_div {
   background: rgba(66, 51, 56, 0.6);
   padding: 0.8rem;
   border-radius: 5px;
-  width: 40%;
+  width: 60%;
   height: 2.3rem;
   margin: 4rem 6rem;
 }
 .hero_box .hero_item2 input {
-  width: 28%;
+  width: 25%;
   padding: 0.5rem 0.9rem;
   font-size: 1rem;
   border-radius: 3px;
